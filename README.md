@@ -1,2 +1,1 @@
-# oops_practice
-Diving into OOPs programming and learning the basics
+# Diving into OOPs programming and learning the basics
