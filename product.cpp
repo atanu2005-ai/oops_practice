@@ -43,7 +43,9 @@ void shop::searchid(int id){
     bool found = false;
     for (int i = 0; i < counter; i++){
         if (itemid[i] == id){
-            cout << "Item found with ID " << id << " || " << "Item price: " << itemprice[i] << "Rupees" << endl;
+            cout << "Item found with ID " << id << " !" << endl;
+            cout << "Item name: " << itemname[i] << endl;
+            cout << "Item price: " << itemprice[i] << " Rupees" << endl;
             found = true;
             break;
         }
